@@ -1,0 +1,17 @@
+# Javascript test snippets
+
+# describe
+snippet desc
+	describe('${1:description}', () => {
+		${0}
+	});
+# it
+snippet it
+	it('${1:does_something}', (${2:done}) => {
+		${0}
+	});
+# test block
+snippet testb
+	${1}(() => {
+		${0}
+	});
